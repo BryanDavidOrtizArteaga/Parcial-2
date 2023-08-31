@@ -18,9 +18,9 @@ public class FirebasePushObject {
     public static void main(String[] args) {
         Item item = new Item();
         item.setId(1L);
-        item.setName("celular");
+        item.setName("iphone");
         item.setPrice(100.156);
-        //test
+        //test de prueba
         // You can use List<Item> also.
         new FirebasePushObject().saveUsingPush(item);
     }
@@ -38,7 +38,7 @@ public class FirebasePushObject {
                     //.setDatabaseUrl("https://prueba-esp-a7c2a.firebaseio.com") // 
                     .setDatabaseUrl("https://prueba2-97bb1.firebaseio.com/")
                     //.setServiceAccount(new FileInputStream(new File("C:\\Users\\Lenovo\\Documents\\pc\\NetBeansProjects\\firebase\\prueba-esp-a7c2a-firebase-adminsdk-yd7qe-1bdb100458.json")))
-                    .setServiceAccount(new FileInputStream(new File("C:\\Users\\locon\\Documents\\pc\\NetBeansProjects\\firebase\\prueba2-97bb1-firebase-adminsdk-mrv9r-e6d3c696cf.json")))
+                    .setServiceAccount(new FileInputStream(new File("C:\\Users\\locon\\OneDrive - Universidad Nacional de Colombia\\NetBeansProjects\\firebase\\prueba2-97bb1-firebase-adminsdk-mrv9r-e6d3c696cf.json")))
 
                     .build();
 
