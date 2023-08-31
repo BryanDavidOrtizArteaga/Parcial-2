@@ -20,7 +20,7 @@ public class FirebasePushObject {
         item.setId(1L);
         item.setName("celular");
         item.setPrice(100.156);
-        
+        //test
         // You can use List<Item> also.
         new FirebasePushObject().saveUsingPush(item);
     }
